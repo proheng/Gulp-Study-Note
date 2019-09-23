@@ -123,4 +123,7 @@ exports.default = function() {
 - Instead of creating and maintaining your own plugin.
 - Instead of forking a plugin that exists to add a feature you want.
 
+## [Watching Files ](https://gulpjs.com/docs/en/getting-started/watching-files#watching-files)
+
+The ```watch()``` API connects globs to tasks using a file system watcher. It watches for changes to files that match the globs and executes the task when a change occurs. If the task doesn't signal Async Completion, it will never be run a second time.
 
