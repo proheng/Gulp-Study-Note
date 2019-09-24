@@ -1,6 +1,6 @@
 # Gulp with TypeScript Study Note
 
-![gulp banner](images\gulp.png)
+![gulp banner](images/gulp.png)
 
 ## Installation 
 
@@ -38,7 +38,7 @@ Gulp provides two powerful composition methods, ```series()``` and ```parallel()
 - For tasks to run at maximum concurrency, combine them with the ```parallel()``` method.
 
 [compose-task.ts](./src/compose.task.ts)
-![compose-task](./images/compose-task.png)
+![compose-task](images/compose-task.PNG)
 
 ## Async Completion
 
